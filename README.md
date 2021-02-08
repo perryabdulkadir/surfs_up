@@ -8,11 +8,11 @@ This analysis uses Python and SQLAlchemy to query a SQLite file containing weath
 
 ## Results
 
-**June
+**June**
 
 ![june_summary.PNG](Resources/june_summary.PNG) 
 
-**December 
+**December**
 
 ![december_summary.PNG](Resources/december_summary.PNG) 
 
