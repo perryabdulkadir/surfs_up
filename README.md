@@ -21,3 +21,8 @@ The minimum temperature in June was 64 degrees compared to the minimum temperatu
 
 * The weather is equally consistent in June and December. 
 The standard deviation of temperatures is 3.26 in June and 3.75 in December. If certain times of the year had temperatures with higher standard deviations (i.e. more variable weather) that could influence our decision to shut down at times of unpredictable weather. However, the weather has a similar variability throughout the year. 50% of temperatures in June are between 73 and 77 degrees, while 50% of the temperatures in December are between 69 and 74 degrees. 
+
+
+## Summary
+
+In general, the weather in June and December is fairly comparable. The temperatures in December are only slightly colder and slightly more variable than in June. On particularly cold days for Hawaii, it may be worth closing the surfshack early. There are additional queries that could help us make a more informed decision. First, we can run queries to determine precipitation data for June and December. While tropical regions don't have "summer" and "winter," they frequently have dry and wet seasons. If it turns out that December is particularly rainy, it may be worth looking into further limiting our winter hours. Second, we can run queries for the holiday season to determine the weather from the period of December 24 to December 31. If it turns out these are some of the days of the year with the worst weather, it is evidence in favor of closing down for the holidays, particularly because few people will be surfing during the holidays anyway.
