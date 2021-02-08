@@ -8,10 +8,13 @@ This analysis uses Python and SQLAlchemy to query a SQLite file containing weath
 
 ## Results
 
-June
+**June
 
-December 
+![june_summary.PNG](Resources/june_summary.PNG) 
 
+**December 
+
+![december_summary.PNG](Resources/december_summary.PNG) 
 
 * There are not significant differences between June weather and December weather. 
 This is unsurprising, given Hawaii's tropical climate. But, this helps confirm our intuition that having our surfshack open year round will not face many problems from uncooperative weather. The mean June temperature is roughly 75 degrees and the mean December temperature is a balmy 71. 
