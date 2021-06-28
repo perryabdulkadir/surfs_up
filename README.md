@@ -6,6 +6,12 @@ Software: Python, Jupyter Notebook
 
 Python packages: numpy, datetime, pandas, sqlalchemy
 
+Data: [hawaii.sqlite](https://github.com/perryabdulkadir/surfs_up/blob/main/hawaii.sqlite)
+
+## Analysis
+
+The first step of the analysis was connecting to the SQLite database, which was accomplished by 
+![june_summary.PNG](Resources/june_summary.PNG) 
 ## Results
 
 **June**
