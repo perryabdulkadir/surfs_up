@@ -3,8 +3,8 @@ This analysis uses Python and SQLAlchemy to query a SQLite file containing weath
 
 ## Tools
 Software: Python, Jupyter Notebook
-Python packages: numpy, datetime, pandas, sqlalchemy
 
+Python packages: numpy, datetime, pandas, sqlalchemy
 
 ## Results
 
