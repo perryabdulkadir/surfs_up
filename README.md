@@ -31,6 +31,25 @@ To allow for easier analysis, I converted the queried June temperatures into a l
 results = session.query(Measurement.date, Measurement.tobs).filter(extract('month', Measurement.date) == 6 )
 list(results.all())
 ```
+Next, I made a dataframe to hold the June temperatures and their respective dates. 
+
+![june_df.PNG](Resources/june_df.PNG) 
+
+**December**
+I simply refactored the code June code to work for the December analysis. I started with querying all December temperatures. 
+
+```
+december = [dt.date(year, 6, day) for day in range (1, 31) for year in range (2010, 2018)]
+results2 = []
+results2 = session.query(Measurement.date, Measurement.tobs).filter(extract('month', Measurement.date) == 12 )
+results2.all()
+```
+I turned the result of that query into a list: 
+```
+results = session.query(Measurement.date, Measurement.tobs).filter(extract('month', Measurement.date) == 6 )
+list(results2.all())
+```
+
 
 ## Results
 
