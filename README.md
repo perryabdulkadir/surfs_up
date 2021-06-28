@@ -10,8 +10,28 @@ Data: [hawaii.sqlite](https://github.com/perryabdulkadir/surfs_up/blob/main/hawa
 
 ## Analysis
 
-The first step of the analysis was connecting to the SQLite database, which was accomplished by 
-![june_summary.PNG](Resources/june_summary.PNG) 
+The first step of the analysis was connecting to the SQLite database, which was accomplished by the code below: 
+
+![connecting.PNG](Resources/connecting.PNG) 
+
+**June** 
+To begin analysis for June, I queried the Measurement table to retrieve June temperatures for every year that data was available (2010-2018). 
+
+```
+# 1. Import the sqlalchemy extract function.
+from sqlalchemy import extract
+# 2. Write a query that filters the Measurement table to retrieve the temperatures for the month of June. 
+june = [dt.date(year, 6, day) for day in range (1, 31) for year in range (2010, 2018)]
+results = []
+results = session.query(Measurement.date, Measurement.tobs).filter(extract('month', Measurement.date) == 6 )
+results.all()
+```
+To allow for easier analysis, I converted the queried June temperatures into a list. 
+```
+results = session.query(Measurement.date, Measurement.tobs).filter(extract('month', Measurement.date) == 6 )
+list(results.all())
+```
+
 ## Results
 
 **June**
