@@ -15,6 +15,7 @@ The first step of the analysis was connecting to the SQLite database, which was 
 ![connecting.PNG](Resources/connecting.PNG) 
 
 **June** 
+
 To begin analysis for June, I queried the Measurement table to retrieve June temperatures for every year that data was available (2010-2018). 
 
 ```
@@ -36,6 +37,7 @@ Next, I made a dataframe to hold the June temperatures and their respective date
 ![june_df.PNG](Resources/june_df.PNG) 
 
 **December**
+
 I simply refactored the code June code to work for the December analysis. I started with querying all December temperatures. 
 
 ```
