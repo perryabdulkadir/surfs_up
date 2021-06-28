@@ -49,7 +49,9 @@ I turned the result of that query into a list:
 results = session.query(Measurement.date, Measurement.tobs).filter(extract('month', Measurement.date) == 6 )
 list(results2.all())
 ```
+I then put the December temperatures and dates in a data frame. 
 
+![december_df.PNG](Resources/december_df.PNG) 
 
 ## Results
 
