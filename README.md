@@ -78,3 +78,12 @@ The standard deviation of temperatures is 3.26 in June and 3.75 in December. If 
 ## Summary
 
 In general, the weather in June and December is fairly comparable. The temperatures in December are only slightly colder and slightly more variable than in June. On particularly cold days for Hawaii, it may be worth closing the surf shack early. There are additional queries that could help us make a more informed decision. First, we can run queries to determine precipitation data for June and December. While tropical regions do not have "summer" and "winter," they frequently have dry and wet seasons. If it turns out that December is particularly rainy, it may be worth looking into further limiting our winter hours. Second, we can run queries for the holiday season to determine the weather from the period of December 24 to December 31. If it turns out these are some of the days of the year with the worst weather, it is evidence in favor of closing down for the holidays, particularly because few people will be surfing during the holidays anyway.
+
+
+
+### **Contact:**
+
+**Email:** perry.abdulkadir@alumni.harvard.edu
+
+**Linkedin:** https://www.linkedin.com/in/perry-abdulkadir-6a255199/
+
